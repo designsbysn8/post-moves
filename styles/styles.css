@@ -1,0 +1,57 @@
+#title {
+  float: center;
+}
+
+body {
+  background-image: url("../images/lightpaperfibers.png");
+  cursor: url("basketball.cur"), auto;
+  font-family: 'bellbottom';
+  padding: 20px 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  cursor: url("basketball.cur"), auto;
+  color: purple;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: all 0.2s;
+}
+
+a:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e6e6e6;
+}
+
+h1 {
+  color: #ff6666;
+  font-size: 100px;
+  margin-bottom: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f2f2f2;
+}
+
+#nav {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#sculpture {
+  height: 500px;
+  opacity: .35;
+}
+
+@font-face {
+    font-family: 'bellbottom';
+    src: url('font/belbott0-webfont.eot');
+    src: url('font/belbott0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/belbott0-webfont.woff2') format('woff2'),
+         url('font/belbott0-webfont.woff') format('woff'),
+         url('font/belbott0-webfont.ttf') format('truetype'),
+         url('font/belbott0-webfont.svg#bellbottom.laserlaser') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,19 @@
+{
+  "name": "post-moves",
+  "version": "1.0.0",
+  "description": "buncha tush pushers & rump roasters yadig??",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designsbysn8/post-moves.git"
+  },
+  "author": "Nathaniel S Kornet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designsbysn8/post-moves/issues"
+  },
+  "homepage": "https://github.com/designsbysn8/post-moves#readme"
+}
