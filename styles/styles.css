@@ -1,5 +1,6 @@
 body {
   align-items: center;
+  background-image: url("../images/stars.jpg");
   text-align: center;
   cursor: url("basketball.cur"), auto;
   background-color: black;
@@ -19,7 +20,7 @@ p {
   margin: 0;
   opacity: .95;
   position: absolute;
-  top: 68%;
+  top: 60%;
   left: 52%;
   transition: all 0.5s;
   text-shadow: 2px 4px 3px grey;
@@ -28,9 +29,9 @@ p {
 #mwss {
   height: 90%;
   opacity: .15;
-  transition: all 1s;
+  transition: all 1.5s;
 }
 
 #mwss:hover {
-  opacity: .25;
+  opacity: .35;
 }
