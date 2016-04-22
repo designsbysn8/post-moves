@@ -1,0 +1,103 @@
+body {
+  background-image: url("../images/lightpaperfibers.png");
+  cursor: url("basketball.cur"), auto;
+  font-family: 'bellbottom';
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #ff0000;
+  font-size: 112px;
+  margin: 20px 0 30px;
+  opacity: .55;
+  text-shadow: -2px 0px 1px #e6e6e6, -4px 0px 1px #FF0000;
+}
+
+#nav {
+  margin-bottom: 30px;
+  height: 50px;
+  vertical-align: bottom;
+}
+
+#nav a {
+  cursor: url("basketball.cur"), auto;
+  color: purple;
+  font-size: 24px;
+  margin-right: 20px;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+#nav a:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e6e6e6;
+}
+
+#content {
+  position: relative;
+  height: 60%;
+}
+
+#sculpture {
+  height: 500px;
+  opacity: .35;
+}
+
+#bio, #music, #shows, #photos, #contact {
+  border: 10px solid #DA9001;
+  border-radius: 25px;
+  height: 450px;
+  width: 750px;
+}
+
+#wrapper {
+  border: 10px solid #DA9001;
+  border-radius: 25px;
+  margin: 10px;
+  height: 410px;
+}
+
+.hidden, .show {
+  animation-duration: 1.2s;
+  position: relative;
+}
+
+.hidden {
+  animation-name: getouttahere;
+  opacity: 0;
+}
+
+.show {
+  display: inline-block;
+  animation-name: whoahdoggie;
+}
+
+/* Animations */
+
+@keyframes getouttahere {
+  0%   {left:0; top: 0; opacity: 1;}
+  100%  {left:-9001px; top: 0; opacity: 0;}
+}
+
+@keyframes whoahdoggie {
+  0%  {left: 9001px; top: 0; opacity: 0;}
+  100% {left:0px; top: 0; opacity: 1;}
+}
+
+/* Font stuff */
+
+@font-face {
+    font-family: 'bellbottom';
+    src: url('font/belbott0-webfont.eot');
+    src: url('font/belbott0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/belbott0-webfont.woff2') format('woff2'),
+         url('font/belbott0-webfont.woff') format('woff'),
+         url('font/belbott0-webfont.ttf') format('truetype'),
+         url('font/belbott0-webfont.svg#bellbottom.laserlaser') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
