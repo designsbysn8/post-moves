@@ -52,7 +52,7 @@ body {
       font-size: 5em;
       transition: all 1.5s;
       position: initial;
-      padding: 2em;
+      padding: 0.5em;
     }
 
     #click {
@@ -61,6 +61,7 @@ body {
       padding: 1.5em 1em;
       opacity: 1;
       left: 34%;
+      transition: all 1s;
     }
 
     #coming_soon {
