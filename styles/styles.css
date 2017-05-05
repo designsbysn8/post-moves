@@ -16,11 +16,10 @@ body {
 
 p {
   font-size: 2em;
-  font-color: black;
   margin: 0;
   opacity: .95;
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 52%;
   transition: all 0.5s;
   text-shadow: 2px 4px 3px grey;
