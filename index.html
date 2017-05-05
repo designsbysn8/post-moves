@@ -4,9 +4,42 @@
     <title>Post Moves</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
-  <body class="w3-animate-opacity">
+  <body>
     <img id="mwss" src="images/boogie_cover.jpg" />
-    <p>Coming Soon...</p>
-    <audio src="audio/reg_intro.mp3" autoplay />
+    <div id="text">
+      <span id="click" onclick="onClick()">click</span>
+      <span id="coming_soon" onclick="onClick()">coming soon...</span>
+    </div>
   </body>
+  <footer>
+    <script>
+    function isMobile() {
+       if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+         return true
+       } else {
+         return false
+       }
+    }
+
+    var click = document.getElementById('click')
+    var comingSoon = document.getElementById('coming_soon')
+
+    var audio = new Audio('audio/reg_intro.mp3')
+
+    if (!isMobile()) {
+      audio.play()
+      click.style.opacity = 0
+      comingSoon.style.opacity = 'inherit'
+    }
+
+    function onClick () {
+      if (click.style.opacity !== 0) {
+        click.style.opacity = 0
+        comingSoon.style.opacity = 'inherit'
+        audio.play()
+      }
+    }
+
+    </script>
+  </footer>
 </html>
